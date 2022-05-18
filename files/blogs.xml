@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dishes>
+  <dish>
+    <id>1652848386</id>
+    <name>pinaupong baka</name>
+    <price>P10000</price>
+    <date>May/18/2022</date>
+  </dish>
+</dishes>
