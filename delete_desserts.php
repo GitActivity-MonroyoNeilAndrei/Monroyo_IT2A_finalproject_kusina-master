@@ -9,18 +9,18 @@ $dishes = simplexml_load_file("files/blogs.xml");
 $index = 0;
 $i = 0;
 
-foreach($dishes->dish as $dish){
+
+foreach($dishes->desserts as $desserts){
 
 //remove if the ID matches
-	if($dish->id = $id){
+	if($desserts->id = $id){
 		$index = $i;
 		break;
 	}
 	$i++;
 }
 
-
-unset($dishes->dish[$index]);
+unset($dishes->desserts[$index]);
 file_put_contents('files/blogs.xml',$dishes->asXML());
 
 $_SESSION['message'] = 'Blog Successfully Deleted';

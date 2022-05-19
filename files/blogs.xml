@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE dishes [
+  <!ELEMENT dishes (lunch,dinner,breakfast,wine,drinks,desserts,bestsellers)>
+  <!ELEMENT lunch (id,category,name,price,date)>
+  <!ELEMENT dinner (id,category,name,price,date)>
+  <!ELEMENT breakfast (id,category,name,price,date)>
+  <!ELEMENT wine (id,category,name,price,date)>
+  <!ELEMENT drinks (id,category,name,price,date)>
+  <!ELEMENT desserts (id,category,name,price,date)>
+  <!ELEMENT bestsellers (id,category,name,price,date)>
+  
+  <!ELEMENT lunch (#PCDATA)>
+  <!ELEMENT dinner (#PCDATA)>
+  <!ELEMENT breakfast (#PCDATA)>
+  <!ELEMENT wine (#PCDATA)>
+  <!ELEMENT drinks (#PCDATA)>
+  <!ELEMENT desserts (#PCDATA)>
+  <!ELEMENT bestsellers (#PCDATA)>
+  <!ELEMENT id (#PCDATA)>
+  <!ELEMENT category (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT date (#PCDATA)>
+]> -->
 <dishes>
-  <dish>
-    <id>1652848386</id>
-    <name>pinaupong baka</name>
-    <price>P10000</price>
-    <date>May/18/2022</date>
-  </dish>
-  <dish>
-    <id>1652859253</id>
-    <name>qaaa</name>
-    <price>aaa</price>
-    <date>May/18/2022</date>
-  </dish>
+  <lunch>
+    <id>1652937250</id>
+    <category>Lunch</category>
+    <name>this is a lunch</name>
+    <price>this is the price of the lunch</price>
+    <date>May/19/2022</date>
+  </lunch>
+  <dinner>
+    <id>1652937264</id>
+    <category>Dinner</category>
+    <name>this is a dinner</name>
+    <price>this is the price of the dinner</price>
+    <date>May/19/2022</date>
+  </dinner>
+  <breakfast>
+    <id>1652937268</id>
+    <category>Breakfast</category>
+    <name>this is a breakfast</name>
+    <price>this is the price of the breakfast</price>
+    <date>May/19/2022</date>
+  </breakfast>
+  <wine>
+    <id>1652937271</id>
+    <category>Wine</category>
+    <name>this is a wine</name>
+    <price>this is the price of the wine</price>
+    <date>May/19/2022</date>
+  </wine>
+  <drinks>
+    <id>1652937275</id>
+    <category>Drinks</category>
+    <name>this is the drinks</name>
+    <price>this is the price of the drinks</price>
+    <date>May/19/2022</date>
+  </drinks>
+  <desserts>
+    <id>1652937279</id>
+    <category>Desserts</category>
+    <name>this is the desserts</name>
+    <price>this is the price of the desserts</price>
+    <date>May/19/2022</date>
+  </desserts>
+  <bestsellers>
+    <id>1652937283</id>
+    <category>Best Sellers</category>
+    <name>this is the best sellers</name>
+    <price>this is the price of the best sellers</price>
+    <date>May/19/2022</date>
+  </bestsellers>
 </dishes>
