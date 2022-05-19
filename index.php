@@ -54,7 +54,7 @@ include "add_modal.php";
 
                     <?php  
                     //load the xml file to the table
-                    $file = simplexml_load_file('files/blogs.xml');
+                    $file = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
                     //loop through all the data and display each rows
                     foreach($file->lunch as $rows) {
@@ -122,7 +122,7 @@ include "add_modal.php";
 
                     <?php  
                     //load the xml file to the table
-                    $file = simplexml_load_file('files/blogs.xml');
+                    $file = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
                     //loop through all the data and display each rows
                     foreach($file->dinner as $rows) {
@@ -190,7 +190,7 @@ include "add_modal.php";
 
                     <?php  
                     //load the xml file to the table
-                    $file = simplexml_load_file('files/blogs.xml');
+                    $file = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
                     //loop through all the data and display each rows
                     foreach($file->breakfast as $rows) {
@@ -258,7 +258,7 @@ include "add_modal.php";
 
                     <?php  
                     //load the xml file to the table
-                    $file = simplexml_load_file('files/blogs.xml');
+                    $file = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
                     //loop through all the data and display each rows
                     foreach($file->wine as $rows) {
@@ -327,7 +327,7 @@ include "add_modal.php";
 
                     <?php  
                     //load the xml file to the table
-                    $file = simplexml_load_file('files/blogs.xml');
+                    $file = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
                     //loop through all the data and display each rows
                     foreach($file->drinks as $rows) {
@@ -397,7 +397,7 @@ include "add_modal.php";
 
                     <?php  
                     //load the xml file to the table
-                    $file = simplexml_load_file('files/blogs.xml');
+                    $file = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
                     //loop through all the data and display each rows
                     foreach($file->desserts as $rows) {
@@ -466,7 +466,7 @@ include "add_modal.php";
 
                     <?php  
                     //load the xml file to the table
-                    $file = simplexml_load_file('files/blogs.xml');
+                    $file = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
                     //loop through all the data and display each rows
                     foreach($file->bestsellers as $rows) {

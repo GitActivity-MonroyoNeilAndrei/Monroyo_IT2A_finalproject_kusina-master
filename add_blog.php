@@ -8,7 +8,7 @@ session_start();
 if(isset($_REQUEST['publishLunch'])){
 
 	//open xml file
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//prepare all the tags and data
 	$lunch = $dishes->addChild('lunch');
@@ -24,7 +24,7 @@ if(isset($_REQUEST['publishLunch'])){
 	$dom->preserveWhiteSpace = false;
 	$dom->formatOutput = true;
 	$dom->loadXML($dishes->asXML());
-	$dom->save('files/blogs.xml');
+	$dom->save('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//send a message to index
 	$_SESSION['message'] = "Blog Successfully Posted";
@@ -41,7 +41,7 @@ if(isset($_REQUEST['publishLunch'])){
 if(isset($_REQUEST['publishDinner'])){
 
 	//open xml file
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//prepare all the tags and data
 	$dinner = $dishes->addChild('dinner');
@@ -57,7 +57,7 @@ if(isset($_REQUEST['publishDinner'])){
 	$dom->preserveWhiteSpace = false;
 	$dom->formatOutput = true;
 	$dom->loadXML($dishes->asXML());
-	$dom->save('files/blogs.xml');
+	$dom->save('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//send a message to index
 	$_SESSION['message'] = "Blog Successfully Posted";
@@ -76,7 +76,7 @@ if(isset($_REQUEST['publishDinner'])){
 if(isset($_REQUEST['publishBreakfast'])){
 
 	//open xml file
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//prepare all the tags and data
 	$breakfast = $dishes->addChild('breakfast');
@@ -92,7 +92,7 @@ if(isset($_REQUEST['publishBreakfast'])){
 	$dom->preserveWhiteSpace = false;
 	$dom->formatOutput = true;
 	$dom->loadXML($dishes->asXML());
-	$dom->save('files/blogs.xml');
+	$dom->save('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//send a message to index
 	$_SESSION['message'] = "Blog Successfully Posted";
@@ -110,7 +110,7 @@ if(isset($_REQUEST['publishBreakfast'])){
 if(isset($_REQUEST['publishWine'])){
 
 	//open xml file
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//prepare all the tags and data
 	$wine = $dishes->addChild('wine');
@@ -126,7 +126,7 @@ if(isset($_REQUEST['publishWine'])){
 	$dom->preserveWhiteSpace = false;
 	$dom->formatOutput = true;
 	$dom->loadXML($dishes->asXML());
-	$dom->save('files/blogs.xml');
+	$dom->save('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//send a message to index
 	$_SESSION['message'] = "Blog Successfully Posted";
@@ -144,7 +144,7 @@ if(isset($_REQUEST['publishWine'])){
 if(isset($_REQUEST['publishDrinks'])){
 
 	//open xml file
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//prepare all the tags and data
 	$drinks = $dishes->addChild('drinks');
@@ -160,7 +160,7 @@ if(isset($_REQUEST['publishDrinks'])){
 	$dom->preserveWhiteSpace = false;
 	$dom->formatOutput = true;
 	$dom->loadXML($dishes->asXML());
-	$dom->save('files/blogs.xml');
+	$dom->save('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//send a message to index
 	$_SESSION['message'] = "Blog Successfully Posted";
@@ -178,7 +178,7 @@ if(isset($_REQUEST['publishDrinks'])){
 if(isset($_REQUEST['publishDesserts'])){
 
 	//open xml file
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//prepare all the tags and data
 	$desserts = $dishes->addChild('desserts');
@@ -194,7 +194,7 @@ if(isset($_REQUEST['publishDesserts'])){
 	$dom->preserveWhiteSpace = false;
 	$dom->formatOutput = true;
 	$dom->loadXML($dishes->asXML());
-	$dom->save('files/blogs.xml');
+	$dom->save('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//send a message to index
 	$_SESSION['message'] = "Blog Successfully Posted";
@@ -212,7 +212,7 @@ if(isset($_REQUEST['publishDesserts'])){
 if(isset($_REQUEST['publishBestSellers'])){
 
 	//open xml file
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//prepare all the tags and data
 	$bestsellers = $dishes->addChild('bestsellers');
@@ -228,7 +228,7 @@ if(isset($_REQUEST['publishBestSellers'])){
 	$dom->preserveWhiteSpace = false;
 	$dom->formatOutput = true;
 	$dom->loadXML($dishes->asXML());
-	$dom->save('files/blogs.xml');
+	$dom->save('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	//send a message to index
 	$_SESSION['message'] = "Blog Successfully Posted";

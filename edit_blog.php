@@ -4,7 +4,7 @@ session_start();
 
 if(isset($_REQUEST['edit_blog'])){
 
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	foreach($dishes->lunch as $lunch){
 
@@ -18,7 +18,7 @@ if(isset($_REQUEST['edit_blog'])){
 
 	}//end of foreach
 
-	file_put_contents('files/blogs.xml', $dishes->asXML());
+	file_put_contents('files/Monroyo_IT2A_finalproject_kusina-hustler.xml', $dishes->asXML());
 	$_SESSION['message'] = "Blog Successfully Updated";
 	header("location: index.php");
 
@@ -34,7 +34,7 @@ else {
 
 if(isset($_REQUEST['edit_blog1'])){
 
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	foreach($dishes->dinner as $dinner){
 
@@ -48,7 +48,7 @@ if(isset($_REQUEST['edit_blog1'])){
 
 	}//end of foreach
 
-	file_put_contents('files/blogs.xml', $dishes->asXML());
+	file_put_contents('files/Monroyo_IT2A_finalproject_kusina-hustler.xml', $dishes->asXML());
 	$_SESSION['message'] = "Blog Successfully Updated";
 	header("location: index.php");
 
@@ -63,7 +63,7 @@ else {
 
 if(isset($_REQUEST['edit_blog2'])){
 
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	foreach($dishes->breakfast as $breakfast){
 
@@ -77,7 +77,7 @@ if(isset($_REQUEST['edit_blog2'])){
 
 	}//end of foreach
 
-	file_put_contents('files/blogs.xml', $dishes->asXML());
+	file_put_contents('files/Monroyo_IT2A_finalproject_kusina-hustler.xml', $dishes->asXML());
 	$_SESSION['message'] = "Blog Successfully Updated";
 	header("location: index.php");
 
@@ -92,7 +92,7 @@ else {
 
 if(isset($_REQUEST['edit_blog3'])){
 
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	foreach($dishes->wine as $wine){
 
@@ -106,7 +106,7 @@ if(isset($_REQUEST['edit_blog3'])){
 
 	}//end of foreach
 
-	file_put_contents('files/blogs.xml', $dishes->asXML());
+	file_put_contents('files/Monroyo_IT2A_finalproject_kusina-hustler.xml', $dishes->asXML());
 	$_SESSION['message'] = "Blog Successfully Updated";
 	header("location: index.php");
 
@@ -121,7 +121,7 @@ else {
 
 if(isset($_REQUEST['edit_blog4'])){
 
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	foreach($dishes->drinks as $drinks){
 
@@ -135,7 +135,7 @@ if(isset($_REQUEST['edit_blog4'])){
 
 	}//end of foreach
 
-	file_put_contents('files/blogs.xml', $dishes->asXML());
+	file_put_contents('files/Monroyo_IT2A_finalproject_kusina-hustler.xml', $dishes->asXML());
 	$_SESSION['message'] = "Blog Successfully Updated";
 	header("location: index.php");
 
@@ -150,7 +150,7 @@ else {
 
 if(isset($_REQUEST['edit_blog5'])){
 
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	foreach($dishes->desserts as $desserts){
 
@@ -164,7 +164,7 @@ if(isset($_REQUEST['edit_blog5'])){
 
 	}//end of foreach
 
-	file_put_contents('files/blogs.xml', $dishes->asXML());
+	file_put_contents('files/Monroyo_IT2A_finalproject_kusina-hustler.xml', $dishes->asXML());
 	$_SESSION['message'] = "Blog Successfully Updated";
 	header("location: index.php");
 
@@ -179,7 +179,7 @@ else {
 
 if(isset($_REQUEST['edit_blog6'])){
 
-	$dishes = simplexml_load_file('files/blogs.xml');
+	$dishes = simplexml_load_file('files/Monroyo_IT2A_finalproject_kusina-hustler.xml');
 
 	foreach($dishes->bestsellers as $bestsellers){
 
@@ -193,7 +193,7 @@ if(isset($_REQUEST['edit_blog6'])){
 
 	}//end of foreach
 
-	file_put_contents('files/blogs.xml', $dishes->asXML());
+	file_put_contents('files/Monroyo_IT2A_finalproject_kusina-hustler.xml', $dishes->asXML());
 	$_SESSION['message'] = "Blog Successfully Updated";
 	header("location: index.php");
 

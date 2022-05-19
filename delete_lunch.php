@@ -3,7 +3,7 @@
 session_start();
 $id = $_REQUEST['id'];
 
-$dishes = simplexml_load_file("files/blogs.xml");
+$dishes = simplexml_load_file("files/Monroyo_IT2A_finalproject_kusina-hustler.xml");
 
 //create an iterator
 $index = 0;
@@ -21,7 +21,7 @@ foreach($dishes->lunch as $lunch){
 }
 
 unset($dishes->lunch[$index]);
-file_put_contents('files/blogs.xml',$dishes->asXML());
+file_put_contents('files/Monroyo_IT2A_finalproject_kusina-hustler.xml',$dishes->asXML());
 
 $_SESSION['message'] = 'Blog Successfully Deleted';
 header("location:index.php");
